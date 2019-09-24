@@ -3,6 +3,7 @@ header{
   background-color: #444;
   width:100%;
   margin-bottom:30px;
+  
 }
 header>img{
   margin: 20px 0;
@@ -10,17 +11,16 @@ header>img{
   margin-left:10px;
 }
 header>a{
-  padding: 56px;
+  padding: 50px;
   float:left;
   text-decoration: none;
+  color:rgb(158, 157, 157);
 }
-main{
-  text-align: center;
-  margin: 0 0 30px 0;
-  width:960px;
+article{
+  margin: 30px 0; 
 }
-body > section > img:nth-of-type(2) {
-  margin:0 25px;
+article img:nth-of-type(2){
+  margin: 0 30px 0 30px;
 }
 body {
   font-family: 'Helvetica', sans-serif;
@@ -29,27 +29,36 @@ footer{
   height:6em;
   background-color: #444;
 }
-body>section:nth-of-type(1){
+section{
   width:960px;
 }
-body>p{
-  float:left;
-  margin: 30px 0;
-  margin-right: 30px;
+section:last-child > img{
+float:left;
 }
-body > section:nth-of-type(2){
-  margin: 30px 0;
+p{
+
   width:400px;
-  height:400px;
+  height:380px;
   overflow:scroll;
 }
+button{
+  background-color:#000;
+  color:#fff;
+  height:30px;
+
+}
 button:hover{
-  background-color:black;
-  color:white;
+  background-color:#fff;
+  color:#000;
 }
 section{
   font-style:italic;
 }
 h3{
   font-style:normal;
+  margin-bottom: 10px;
+}
+div{
+  display: inline-block;
+  margin: 0 30px;
 }
