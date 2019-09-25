@@ -26,6 +26,7 @@ body {
   font-family: 'Helvetica', sans-serif;
 }
 footer{
+  margin-top: 30px;
   height:6em;
   background-color: #444;
 }
@@ -38,7 +39,7 @@ float:left;
 p{
 
   width:400px;
-  height:380px;
+  height:350px;
   overflow:scroll;
 }
 button{
